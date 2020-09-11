@@ -1,3 +1,7 @@
+body {
+	padding-left: 200px;
+}
+
 /* Header */
 .banner {
 	width: 1280px;
@@ -53,13 +57,12 @@
 	background-color: #325DFF;
 	border-radius: 35px;
 	margin-top: 90px;
-}
-.banner-button a {
 	color: #fff;
 	font-size: 14px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
+
 /* Middle Div Styles */
 .middle-div {
 	width: 1280px;
@@ -90,13 +93,12 @@
 	height: 72px;
 	border-radius: 35px;
 	margin-left: 82px ;
-}
-.middle-div-button a {
-    color: #fff;
+	color: #fff;
     font-size: 14px;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+
 .middle-div-img {
 	width: 640px;
 	height: 601px;
@@ -107,6 +109,7 @@
 .bottom-div{
     display: flex;
     flex-direction: column;
+    background-color: #FAFAFA;
 }
 .bottom-div-txt {
 	width: 1280px ;
@@ -114,6 +117,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: 87px;
 }
 
 .bottom-div-txt h3{
@@ -133,6 +137,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-wrap: nowrap;
+	margin-top: 87px;
 }
 
 .six-div {
@@ -143,6 +148,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #fff;
+	margin-bottom: 30px;
 }
 
 .logo {
@@ -153,16 +160,29 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 30px;
 }
 .six-div-container h4 {
 	font-size: 18px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
 }
 .six-div-container p {
 	font-size: 16px;
+	line-height: 25px;
 }
 .three-div {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+.child-div {
+	width: 251px;
+	height: 263px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
 }
