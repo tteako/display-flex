@@ -1,13 +1,11 @@
-body {
-	padding-left: 200px;
-}
 
 /* Header */
 .banner {
-	width: 1280px;
+	width: 100%;
 	height: 900px;
 	background-image: url("../img/header.jpg");
 	background-size: cover;
+	background-position: bottom center;
 	display: flex;
 	flex-direction: column;
 
@@ -65,14 +63,13 @@ body {
 
 /* Middle Div Styles */
 .middle-div {
-	width: 1280px;
-	height: 602px;
+	width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .middle-div-txt {
-	width: 640px;
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -97,13 +94,15 @@ body {
     font-size: 14px;
     letter-spacing: 3px;
     text-transform: uppercase;
+    border: 0px;
 }
 
 .middle-div-img {
-	width: 640px;
+	width: 50%;
 	height: 601px;
 	background-image: url("../img/middle-div.png");
-	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 /* bottom div styles */
 .bottom-div{
@@ -112,7 +111,7 @@ body {
     background-color: #FAFAFA;
 }
 .bottom-div-txt {
-	width: 1280px ;
+	width: 100% ;
     display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -131,7 +130,7 @@ body {
 	margin-top: 10px;
 }
 .six-div-container {
-	width: 1280px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
